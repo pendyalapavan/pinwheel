@@ -1,0 +1,80 @@
+.main_card_inner_div{
+    
+    margin-left:10vw;
+    margin-right: 10vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    color:black;
+    margin-bottom:5vw;
+    justify-content: space-between;
+}
+
+
+.main_left_card{
+    
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:5vw;
+}
+.main_card_para{
+    font-size:17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    font-weight:0px;
+}
+.main_button {
+    width: 180px;
+    height: 50px;
+    border: 0px;
+    border-radius: 35px;
+    background-color: white;
+    margin-top: 2vw;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.main_right_card{
+    
+    font-size: 20px;
+    margin-left:4vw;
+}
+.main_img{
+    width:30vw;
+    height:15vh;
+}
+
+
+
+@media (max-width: 768px) {
+    .main_card_inner_div{
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center;
+        margin: 5vw;
+    }
+
+    .main_left_card{
+        
+        font-size: 30px; 
+        padding-right:10vw;
+    }
+
+   
+
+    .main_right_card{
+        
+        font-size: 16px;
+        margin-top:3vw;
+    }
+        
+    .main_img {
+          width: 40vw; 
+          height: 20vw;
+        }
+      
+}
