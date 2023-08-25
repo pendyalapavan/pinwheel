@@ -16,7 +16,7 @@ export default function Mainbody() {
              </div>
             </div>
             <div className='main_right_card'>
-               <img src={banner}className="main-img" alt="logo" />
+               <img src={banner}className="main_img" alt="logo" />
             </div>
         </div>
 

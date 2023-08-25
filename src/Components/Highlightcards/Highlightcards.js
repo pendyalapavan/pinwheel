@@ -12,7 +12,7 @@ export default function Highlightcards() {
                <div class="card-description">Passionate about creating <br></br> responsive web experiences.</div>
             </div>
            
-            <div class="rating-stars">★</div>
+            <div class="rating_stars">★</div>
             
         </div>
     </div>

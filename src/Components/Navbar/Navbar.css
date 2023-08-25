@@ -9,7 +9,7 @@ body, ul {
   .navbar {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: start;
     background-color: #fdf9f9;
     padding: 10px 20px;
     color: white;
@@ -85,6 +85,10 @@ body, ul {
   
 
   @media screen and (max-width: 1024px) {
+    .navbar{
+      align-items:start;
+      justify-content: space-between;
+    }
     .nav-items {
       display: none;
     }

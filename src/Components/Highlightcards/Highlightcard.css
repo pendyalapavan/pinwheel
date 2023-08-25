@@ -8,6 +8,7 @@
     text-align:start;
     padding: 10px;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    margin:3px;
   }
 
 
@@ -27,8 +28,11 @@
 
   .card-description {
     font-size: 14px;
-    color: #333;
+    color:gray;
     margin-top: 10px;
+  }
+  .rating_stars{
+    color:orange
   }
 
 

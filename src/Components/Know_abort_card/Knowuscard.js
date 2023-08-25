@@ -18,7 +18,7 @@ export default function Knowuscard() {
              <p className='sells_card_highlight'> <a>★</a>Customer Service</p>
            </div>
             <div className='sells_left_card'>
-               <img src={sells}className="sells-img" alt="logo" />
+               <img src={sells}className="sells_img" alt="logo" />
             </div>
         </div>
 
@@ -26,7 +26,7 @@ export default function Knowuscard() {
 
         <div className='collab_card_inner_div'>
             <div className='collab_left_card'>
-               <img src={collab}className="collab-img" alt="logo" />
+               <img src={collab}className="collab_img" alt="logo" />
             </div>
             <div className='collab_right_card'>
              <h className="collab_right_head">Accept payments any country in this whole universe </h>
@@ -55,7 +55,7 @@ export default function Knowuscard() {
              </div>
             </div>
             <div className='know_right_card'>
-               <img src={intro}className="intro-img" alt="logo" />
+               <img src={intro}className="intro_img" alt="logo" />
             </div>
         </div>
         

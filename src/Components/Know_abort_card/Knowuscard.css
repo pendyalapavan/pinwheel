@@ -40,21 +40,18 @@
 .know_right_card{
     
     font-size: 20px;
-    margin-left:4vw;
+   
 }
-.intro_img{
-    width:30vw;
-    height:15vh;
-}
+
 
 
 
 @media (max-width: 768px) {
     .know_card_inner_div{
         flex-direction: column; 
-        align-items: center; 
-        text-align: center;
-        margin: 5vw;
+        align-items:center; 
+        text-align: start;
+        margin: 10vw;
     }
 
     .know_left_card{
@@ -72,8 +69,7 @@
     }
         
     .intro_img {
-          width: 40vw; 
-          height: 20vw;
+          width:100%
         }
       
 }
@@ -121,14 +117,14 @@ a{
 @media (max-width: 768px) {
     .collab_card_inner_div{
         flex-direction: column; 
-        align-items: center; 
-        text-align: center;
+        align-items: start; 
+        text-align: start;
         margin: 5vw;
     }
 
     .collab_left_card{
         
-        font-size: 36px; 
+        font-size: 20px; 
         padding-right:10vw;
     }
 
@@ -141,10 +137,11 @@ a{
     }
         
     .collab_img {
-          width: 40vw; 
-          height: 20vw;
+          width: 100%;
         }
-      
+    .collab_right_head{
+        font-size:30px;
+    }
 }
 
 
@@ -186,10 +183,7 @@ a{
     margin-top: 4vw;
     text-align:start;
 }
-.sells_img{
-    width:30vw;
-    height:15vh;
-}
+
 .sells_right_head{
     font-size:40px;
     font-weight: bold;
@@ -202,20 +196,22 @@ a{
 .sells_card_highlight{
     background-color:rgb(254 96 25 / 0.4);
 }
-
+.sells_img{
+    
+}
 
 
 @media (max-width: 768px) {
     .sells_card_inner_div{
         flex-direction: column; 
-        align-items: center; 
-        text-align: center;
-        margin: 5vw;
+        align-items: start; 
+        text-align: start;
+        
     }
 
     .sells_left_card{
         
-        font-size: 36px; 
+        font-size: 25px; 
         padding-right:10vw;
     }
 
@@ -223,13 +219,13 @@ a{
 
     .sells_right_card{
         
-        font-size: 16px;
+        font-size: 10px;
         margin-top:10vw;
     }
         
     .sells_img {
-          width: 20vw; 
-          height: 10vw;
+          width:100%;
+         
         }
       
 }

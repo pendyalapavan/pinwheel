@@ -7,6 +7,7 @@
     margin:10vw;
     display:flex;
     flex-direction:column;
+    
 
 }
 .customer_card_upper{
@@ -26,69 +27,87 @@
     flex-direction:row;
     flex-wrap: wrap;
 }
+/*hhhhh*/
+.ringcards{
+  display:flex;
+  flex-direction:row;
+  margin-top:6vw;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+}
+.container {
+  width: 400px;
+  margin: 120px auto 120px;
+  background-color: #fff;
+  padding: 0 20px 20px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  -moz-box-shadow: 0 2px 5px rgba(0,0,0,0.075);
+  text-align: center;
+  margin:4px;
+}
 
-.card {
-    width: 300px;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    padding: 20px;
-    margin:2vw;
-   
-  }
-  
-   
-   
-  
+.avatar-flip {
+  border-radius: 100px;
+  overflow: hidden;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  top: -60px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 0 13px #f0f0f0;
+  -webkit-box-shadow: 0 0 0 13px #f0f0f0;
+  -moz-box-shadow: 0 0 0 13px #f0f0f0;
+}
 
-  .card-image {
-    width: 150px;
-    height: 150px;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 0 auto;
-   
-   
-  }
 
-  .card-image img {
-    width: 100%;
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+}
+h4 {
+  font-size: 13px;
+  color: #00baff;
+  letter-spacing: 1px;
+  margin-bottom: 25px
+}
+p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+
+/*hhhh*/
+
+  @media (max-width: 768px) {
+    .customer_card_upper{
+        flex-direction: column; 
+        align-items: center; 
+        text-align:start;
+        
+    }
+    .card_paragraph{
+      margin:0px;
+    }
+
+    .h_our_custmoers{
+      font-size:35px;
+    }
+    .container{
+      margin-bottom:6vw;
+      margin-top:6vw;
+    }
     
-    bottom: 0;
-    left: 0;
-
-  }
-
-  .card-content {
-    margin-top: 20px;
-  }
-
-  .card-name {
-    font-size: 20px;
-    font-weight: bold;
-  }
-
-  .card-occupation {
-    font-size: 14px;
-    color: #666;
-  }
-
-  .card-description {
-    font-size: 14px;
-    color: #333;
-    margin-top: 10px;
-  }
-
-  .card-rating {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-  }
-
-  .rating-stars {
-    color: #f39c12;
-    font-size: 30px;
-    margin-right: 5px;
-  }
+}
